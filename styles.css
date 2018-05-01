@@ -8,14 +8,31 @@ html, body {
   width: 100%;
 }
 
-div {
+body {
+  background-color: #1E9EFA !important;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.outer-border {
+  border: 12px solid white;
+  height: 300px;
+  width: 500px;
+  border-radius: 8px;
+}
+
+.inner-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #59BAFF;
   height: 100%;
   width: 100%;
 }
+
 p {
-  border: 1px solid black;
-  background: red;
+  color: white;
+  font-family: sans-serif;
+  font-size: 4rem;
 }
