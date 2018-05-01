@@ -9,30 +9,29 @@ html, body {
 }
 
 body {
-  background-color: #1E9EFA !important;
+  background-color: #fcf988;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .outer-border {
-  border: 12px solid white;
-  height: 300px;
-  width: 500px;
-  border-radius: 8px;
+  border: 8px solid black;
+  height: 420px;
+  width: 290px;
 }
 
 .inner-background {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #59BAFF;
+  flex-flow: column wrap;
   height: 100%;
   width: 100%;
 }
 
 p {
-  color: white;
   font-family: sans-serif;
-  font-size: 4rem;
+  font-size: 3em;
+  letter-spacing: 5px;
 }
